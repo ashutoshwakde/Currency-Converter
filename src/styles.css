@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    /* background-color: #bae8e8; */
+    /* background-image: 'https://images.unsplash.com/photo-1654089670624-0db58288cd01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9uZXklMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww'; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  

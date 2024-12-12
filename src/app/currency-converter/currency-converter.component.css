@@ -1,0 +1,185 @@
+/* 
+div {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background: #e3f6f5;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+select, input[type="number"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px;
+  background: #2c786c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background: #004445;
+  transform: scale(1.05);
+}
+
+button:active {
+  background: #1e7e34;
+  transform: scale(1);
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  font-weight: 500;
+}
+
+
+
+ */
+
+
+
+
+
+/* General styling for the container */
+div {
+  max-width: 550px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #e3f6f5, #e1e5ea);
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: -1; 
+}
+
+/* Styling for the heading */
+h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Styling for the form */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 26px;
+  z-index: 1;
+}
+
+/* Styling for the labels */
+label {
+  font-weight: bold;
+  color: #555;
+  /* margin-bottom: 8px; */
+}
+
+/* Styling for the select and input elements */
+select, input[type="number"] {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  transition: border-color 0.3s;
+}
+
+select:focus, input[type="number"]:focus {
+  border-color: #2c786c;
+  outline: none;
+}
+
+/* Styling for the buttons */
+button {
+  padding: 12px;
+  background: #2c786c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background: #004445;
+  transform: scale(1.05);
+}
+
+button:active {
+  background: #1e7e34;
+  transform: scale(1);
+}
+
+/* Specific styling for the switch button */
+#Switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  border-radius: 50%;
+  background: #2c786c;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#Switch:hover {
+  background: #004445;
+  transform: scale(1.1);
+}
+
+#Switch:active {
+  background: #1e7e34;
+  transform: scale(1);
+}
+
+/* Styling for the converted amount */
+p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  font-weight: 500;
+}
